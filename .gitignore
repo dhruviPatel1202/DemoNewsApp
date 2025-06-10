@@ -72,3 +72,26 @@ yarn-error.log
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+# macOS
+.DS_Store
+
+# node modules
+/node_modules/
+
+# logs
+*.log
+
+# android build files
+/android/app/build/
+/android/.gradle/
+/android/.idea/
+/android/.cxx/
+
+# iOS build files
+/ios/Pods/
+/ios/build/
+
+# Misc
+.env
+*.keystore
